@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="quan ly sinh vien "
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textColor="@color/black"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ma sinh vien"
+        android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/editMa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textSize="20sp"
+            android:gravity="center"/>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ten lop"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edtenlop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="nhap ten lon"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:text="si so"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edsiso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+
+            android:textSize="20sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+       <Button
+           android:layout_width="200sp"
+           android:layout_height="wrap_content"
+           android:text="insert"
+              android:id="@+id/btninsert"
+              android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/btnupdate"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:text="update"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:text="delete"
+            android:id="@+id/btnDelete"
+            android:textSize="20sp"/>
+
+        <Button
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:text="show"
+            android:id="@+id/btnshow"
+            android:textSize="20sp"/>
+
+
+    </LinearLayout>
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
+
+
